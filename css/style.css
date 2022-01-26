@@ -403,6 +403,8 @@ header {
     transition: 
         transform 750ms cubic-bezier(1, 1, 1, 2),
         opacity 250ms linear;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio__item:focus {
@@ -469,7 +471,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: inherit;
-    margin-bottom: inherit;
+    object-fit: inherit;
 }
 
 /* .portfolio-item-individual p {
